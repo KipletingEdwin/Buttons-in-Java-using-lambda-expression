@@ -18,6 +18,8 @@ public class MyFrame extends JFrame {
         button.setHorizontalTextPosition(JButton.CENTER);
         button.setVerticalTextPosition(JButton.BOTTOM);
         button.setFont(new Font("Comic Sans",Font.BOLD,25));
+        button.setIconTextGap(-15);
+        button.setForeground(Color.cyan);
 
 
 
